@@ -7,14 +7,11 @@ project(SDL2Game VERSION 1.0 LANGUAGES CXX)
 set(SOURCES
 	src/engine.h
 	src/engine.cpp
-	src/sprite.h
-	src/sprite.cpp
 	src/main.cpp
 )
 
 source_group("Headers" FILES
 	src/engine.h
-	src/sprite.h
 )
 
 # Set a default build type if none was specified
